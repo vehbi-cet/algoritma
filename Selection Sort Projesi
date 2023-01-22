@@ -1,30 +1,29 @@
 [22,27,16,2,18,6] -> Insertion Sort
 Yukarı verilen dizinin sort türüne göre aşamlarını yazınız
-#1.Adım
-
+# 1.Adım
 [2]27,16,22,18,6]
 |________|
 (ilk önce en küçük sayıyı bulup en başa alıyoruz ama en baştaki sayıyı silmiyoruz en küçük sayıyı aldığımız yere yazıyoruz)
-#2.Adım
 
+# 2.Adım
 [2,6]16,22,18,27]
    |___________|
 (2. sıraya geldiğimiz zamanda en küçük 2. sayıyı 2. sıraya yazıyoruz bunun içinde en küçük 2. sayı olan 6 ile 2. sıradaki 27 sayısının yerini değiştiriyoruz 27 saysını silmiyoruz öncedende yaptığımız gibi yerlerini değiştiryoruz)
-# 3.Adım
 
+# 3.Adım
 [2,6,16]22,18,27]
 (burada herhangi bir değişim işlemi yapmıyoruz çünkü zaten biz en küçük 3. sayıyı arıyoruz bundan dolaysıyla 3.sıraya en küçük 3.sayıyı yazcaz 3.en küçük sayımız 16 olduğuna göre sırasına bakıyoruz zaten 3. sırada o zaman ayrı yeten bir işleme gerek yok)
-#4.Adım
 
+# 4.Adım
 [2,6,16,18]22,27]
          |__|
 (sıra 4. sıraya geldi sayılarımızın arasından en küçük 4. sayıyı arıyoruz gözümüze 5. sıradaki 18 sayısı çarpıyor hemen onu 4. sıradaki 22 sayısısyla yerlerini değiştiriyoruz)
-#5.Adım 
 
+# 5.Adım 
 [2,6,16,18,22]27]
 (sıra 5. adıma geldi en küçük 5. sayıyı arıyoruz en küçük 5. sayı 5. sırada bulunan 22 sayısı hemen göze batıyor zaten e bizim aradığımız en küçük 5.sayı 22 sayısıydı 22 5. sırada bulunduğuna göre bir değişim yapamamıza gerek kalmıyor)
-#6.Adım
 
+# 6.Adım
 [2,6,16,18,22,27]
 ( geriye son 1 sayı kaldı oda en büyük sayı oluyor zaten değişecek bir elemanı kalmadığına göre şu anki yeri iyi)
 -----------------------------------------------
@@ -50,20 +49,20 @@ Dizi sıralandıktan sonra 18 sayısı hangi case in kapsamında girer
 Aradığımız sayının ortada olması durumu Average case
 -----------------------------------------------------
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazalım
-#1.Adım
 
+# 1.Adım
 [2]3,5,8,7,9,4,15,6]
 İlk adımda en küçüğü başa yazdım değişen sayılar (7,2)
-#2.Adım
 
+# 2.Adım
 [2,3]5,8,7,9,4,15,6] 
 Zaten 2. sıradaki sayı en küçük 2. sayı olduğu için birisiyle yer değiştirmemeize gerek yok değişen sayılar (-)
-#3.Adım
 
+# 3.Adım
 [2,3,4]8,7,9,5,15,6]
 En küçük 3. sayımız 4 olarak belirledik o zaman 3. satırdaki 5 le yerini değiştiriyoruz değişen sayılar (5,4)
-#4.Adım
 
+# 4.Adım
 [2,3,4,5]7,9,8,15,6]
 En küçük 4. sayımızı arıyoruz ve gözümüze 5 sayısı çarpıyor o zaman 5. sıradaki 8 sayısıyla yerlerini değiştircez değişen sayılar (8,5)
 
