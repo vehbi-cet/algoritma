@@ -1,6 +1,6 @@
 [22,27,16,2,18,6] -> Insertion Sort
 Yukarı verilen dizinin sort türüne göre aşamlarını yazınız
-# 1.Adım
+# 1. Adım
 [2]27,16,22,18,6]
 |________|
 (ilk önce en küçük sayıyı bulup en başa alıyoruz ama en baştaki sayıyı silmiyoruz en küçük sayıyı aldığımız yere yazıyoruz)
